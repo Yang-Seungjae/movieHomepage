@@ -15,5 +15,5 @@
 
 
 
-홈페이지 가기 https://yang-seungjae.github.io/movieHomepage/moviehomepage.html
+홈페이지 가기 https://yang-seungjae.github.io/movieHomepage/movieIntroduce.html
 
