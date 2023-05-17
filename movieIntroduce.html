@@ -144,75 +144,35 @@
 
     <script>
       function loadMovie(movieId) {
-        switch (movieId) {
-          case 502356:
-            teserId = "4jhz2NU-24Q";
-            break;
-          case 385687:
-            teserId = "cYlVa0jSXQo";
-            break;
-          case 727340:
-            teserId = "256APjTTpuI";
-            break;
-          case 882569:
-            teserId = "POJJMDMJSJQ";
-            break;
-          case 700391:
-            teserId = "qUaeE30DEcM";
-            break;
-          case 502356:
-            teserId = "Xr91d6IKN-I";
-            break;
-          case 1008005:
-            teserId = "ik_Sptvs80Y";
-            break;
-          case 649609:
-            teserId = "BNQMx5gy5Xg";
-            break;
-          case 447277:
-            teserId = "1dJuLyDgRZs";
-            break;
-          case 455476:
-            teserId = "SsfFM2pZ7UU";
-            break;
-          case 840326:
-            teserId = "7MjKspiRQ-g";
-            break;
-          case 667538:
-            teserId = "tVU4oThGtVs";
-            break;
-          case 942199:
-            teserId = "0xabf9zxx7o";
-            break;
-          case 569094:
-            teserId = "aa0WjdSYdCk";
-            break;
-          case 934131:
-            teserId = "9xbSisq8L9E";
-            break;
-          case 876797:
-            teserId = "tu4TyftCqw8";
-            break;
-          case 799379:
-            teserId = "OL9BqniEMDo";
-            break;
-          case 643215:
-            teserId = "poBI837NxbI";
-            break;
-          case 916386:
-            teserId = "LCCjX5Rn-g0";
-            break;
-          case 800787:
-            teserId = "phRXBLwcy5I";
-            break;
-          default:
-            // 기본값으로 설정할 동영상 ID
-            teaserId = "cYlVa0jSXQo";
-        }
+        const apiKey = "a64533e7ece6c72731da47c9c8bc691f";
+        const apiUrl = `https://api.themoviedb.org/3/movie/${movieId}/videos?api_key=${apiKey}&language=ko-KR&page=1`;
 
-        const videoBackground = document.getElementById("video-background");
-        const videoUrl = `https://www.youtube.com/embed/${teserId}?autoplay=1&mute=1&loop=1&playlist=${teserId}`;
-        videoBackground.src = videoUrl;
+        fetch(apiUrl)
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.results && data.results.length > 0) {
+              const teaserId = data.results[0].key;
+              const videoBackground =
+                document.getElementById("video-background");
+              const videoUrl = `https://www.youtube.com/embed/${teaserId}?autoplay=1&mute=1&loop=1&playlist=${teaserId}`;
+              videoBackground.src = videoUrl;
+            } else {
+              // 동영상이 없는 경우 기본 동영상 ID 설정
+              const defaultTeaserId = "1byIaVW0RVk";
+              const videoBackground =
+                document.getElementById("video-background");
+              const videoUrl = `https://www.youtube.com/embed/${defaultTeaserId}?autoplay=1&mute=1&loop=1&playlist=${defaultTeaserId}`;
+              videoBackground.src = videoUrl;
+            }
+          })
+          .catch((error) => {
+            console.log(error);
+            // 동영상 가져오기 실패 시 기본 동영상 ID 설정
+            const defaultTeaserId = "1byIaVW0RVk";
+            const videoBackground = document.getElementById("video-background");
+            const videoUrl = `https://www.youtube.com/embed/${defaultTeaserId}?autoplay=1&mute=1&loop=1&playlist=${defaultTeaserId}`;
+            videoBackground.src = videoUrl;
+          });
       }
 
       document.addEventListener("DOMContentLoaded", () => {
