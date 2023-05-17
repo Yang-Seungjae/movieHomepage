@@ -14,6 +14,7 @@
 
 
 
+![123](https://github.com/Yang-Seungjae/movieHomepage/assets/126847856/60a34c27-8a69-44a3-b285-ec0867da5f4f)
 
 홈페이지 가기 https://yang-seungjae.github.io/movieHomepage/movieIntroduce.html
 
