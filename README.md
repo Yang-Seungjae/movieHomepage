@@ -35,7 +35,7 @@
 
 - **담당역할 :** 프로젝트 전반(기획, 디자인, 백엔드, 프론트엔드)
 - **GitHub Repository :** https://github.com/Yang-Seungjae/JSPservlet/tree/master/BankMVC
-- **Youtube 시연영상 :**
+- **Youtube 시연영상 :** https://youtu.be/fnaQsXtS86U?si=fzfcuZX-dKX0zrQl
 - 오픈뱅킹서비스 프로젝트는 고객들이 은행 서비스를 온라인으로 이용할 수 있는 사이트를 제공하고 더불어 타행은행조회 및 송금을 가능하게 하여 하나의 사이트에서 여러 은행계좌를 관리할 수 있게 함을 목표로 합니다. 
 - **세부기능**
     - 회원가입 및 계좌 개설
@@ -55,7 +55,7 @@
 `Java 11` `JavaScript` `HTML` `CSS` `Oracle 21C XE`
 
 - **담당역할 :** 프로젝트 전반(기획, 디자인, 백엔드, 프론트엔드)
-- **GitHub Repository :**
+- **GitHub Repository :** https://github.com/Yang-Seungjae/JSPservlet/tree/master/WebMVC
 - 사용자들에게 편리한 서비스를 제공하는 것을 목적으로 하는 도서관 관리 프로그램을 만드는 것을 목표로 삼았습니다. 도서관 관리 프로그램의 핵심적인 기술들을 기준으로 직관적으로 사용할 수 있게 제작합니다. 원하는 도서를 빠르게 검색하고 찾을 수 있는 기능과 도서관과 이용자 사이에 게시판을 통해 원활한 소통을 목표로 합니다.
 - **세부기능**
     - (사용자) 도서 조회, 대여, 반납 / (관리자) 신규도서등록, 수정, 삭제
