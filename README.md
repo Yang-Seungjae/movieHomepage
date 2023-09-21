@@ -89,7 +89,7 @@
 
 `JavaScript` `JQuery` `CSS`
 
-- **GitHub Repository :** 
+- **GitHub Repository :** https://github.com/Yang-Seungjae/web-basic/tree/master/GameProject
 - **배포 웹페이지 :** https://yang-seungjae.github.io/web-basic/GameProject/index.html
 - JavaScript 미니게임
 - **세부기능**
@@ -109,8 +109,8 @@
 
 `Java11` `JDBC` `Oracle 21C XE`
 
-- **GitHub Repository :** 
-- **Youtube 시연영상 :** 
+- **GitHub Repository :** https://github.com/Yang-Seungjae/Project01_Lib
+- **Youtube 시연영상 :** https://youtu.be/M5UjyJQqxVE?si=3uSOlTxJsT6uchlC
 - 도서관 웹페이지의 초기모델
 - **세부기능**
     - MVC 패턴 적용
