@@ -34,7 +34,7 @@
 `Java 11` `Spring` `Ajax` `JQuery` `JavaScript` `Oracle 21C XE`   
 
 - **담당역할 :** 프로젝트 전반(기획, 디자인, 백엔드, 프론트엔드)
-- **GitHub Repository :**
+- **GitHub Repository :** https://github.com/Yang-Seungjae/JSPservlet/tree/master/BankMVC
 - **Youtube 시연영상 :**
 - 오픈뱅킹서비스 프로젝트는 고객들이 은행 서비스를 온라인으로 이용할 수 있는 사이트를 제공하고 더불어 타행은행조회 및 송금을 가능하게 하여 하나의 사이트에서 여러 은행계좌를 관리할 수 있게 함을 목표로 합니다. 
 - **세부기능**
