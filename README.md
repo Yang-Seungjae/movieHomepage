@@ -42,13 +42,7 @@
     - Transaction 처리를 통한 당행 계좌조회/이체 및 오픈뱅킹
 - **프로젝트 아키텍처**
   - MVC 패턴
-    
-- **문제**
-    
-    
-    
-- **해결**
-    
+
     ![오픈뱅킹이미지](https://github.com/Yang-Seungjae/portfolio/assets/126847856/45bab6b1-6613-47bb-90f5-b1365ddcc50b)
 
   
@@ -122,3 +116,6 @@
     - MVC 패턴 적용
     - 사용자의 키보드 입력을 통한 도서 조회/검색, 대여/반납, 등록/수정/삭제 등
     - 공지사항 및 한줄형 게시글 등록
+ 
+  ![image](https://github.com/Yang-Seungjae/portfolio/assets/126847856/c67d140f-513e-47f3-81ba-864933e60812)
+
