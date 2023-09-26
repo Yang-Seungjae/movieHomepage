@@ -25,7 +25,9 @@
 - **해결**
     
     직접 데이터셋을 만들고 정확도 향상을 위해 학습시키는 중
-  
+
+  ![KakaoTalk_20230921_183134049](https://github.com/Yang-Seungjae/portfolio/assets/126847856/6932b347-e2e2-43fe-a263-3461fd0cab19)
+
 <hr>
 
 ### **오픈 뱅킹 웹페이지 (개인)**
