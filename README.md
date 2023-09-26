@@ -31,7 +31,7 @@
 ### **오픈 뱅킹 웹페이지 (개인)**
 2023.06.17~07.03
 
-`Java 11` `Ajax` `JQuery` `JavaScript` `Oracle 21C XE`   
+`Java 11` `Bootstrap` `Ajax` `JQuery` `JavaScript` `Oracle 21C XE`   
 
 - **담당역할 :** 프로젝트 전반(기획, 디자인, 백엔드, 프론트엔드)
 - **GitHub Repository :** https://github.com/Yang-Seungjae/JSPservlet/tree/master/BankMVC
