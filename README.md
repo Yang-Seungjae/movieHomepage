@@ -6,7 +6,7 @@
 `SQL`, `Python`, `OpenCV`, `Deeplearning`   
 
 - **담당역할** : 프로젝트 전반, Database, Deeplearning
-- **GitHub Repository** : (준비중)
+- **GitHub Repository** :https://github.com/Yang-Seungjae/Python/tree/master/CCTV%20project
 - **Youtube 시연영상** : (준비중)
 - CCTV 영상에서 얻는 데이터를 인공지능에 학습시켜 사람의 특징(나이, 성별) 을 구분하는 기술을 오픈소스를 통해 개발합니다.<br>CCTV영상에서 사람의 동선을 추적하는 트래킹 기술을 오픈소스를 통해 개발합니다.<br> 해당 데이터들을 저장하여 최종적으로는 사람의 특징을 구별한 데이터와 트래킹 데이터를 종합하여 대중의 트렌드를 파악할 수 있는<br> 시스템 구축이 목표입니다.
   
